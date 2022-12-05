@@ -73,3 +73,19 @@ carros2.push('Volvo');
 console.log(carros2);
 
 console.log('4. Itens no array: ' + carros2.length);
+
+
+//Exercicio 05
+
+let fruits = ['Maça', 'Uva', 'Banana'];
+for (let x in fruits){
+    console.log(fruits[x]);
+}
+
+// Exercício 06
+
+let n = 1;
+while(n <= 100){
+    console.log(n);
+    n++;
+}
