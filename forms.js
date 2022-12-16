@@ -53,7 +53,6 @@ class Input {
         el.placeholder = this.label;
         el.required = this.required;
         formElement.appendChild(el);
-
     }
 }
 
@@ -71,9 +70,7 @@ class Button extends Input {
     }
 }
 
-
 //IMPLEMENTAÇÃO
-
 let form = new Form('.formArea', 'POST', 'https://www.google.com')
 
 let email = new Input("email", "Digite seu e-mail");
