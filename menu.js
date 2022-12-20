@@ -8,3 +8,19 @@ function menuToggle(){
     }
 
 }
+
+
+function subirTela(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+function displayScroll (){
+    if (window.scrollY === 0){
+        document.querySelector('.scrollButton').getElementsByClassName.display = "none";
+    }else{
+        document.querySelector('.scrollButton').getElementsByClassName.display = "block";
+    }
+}
