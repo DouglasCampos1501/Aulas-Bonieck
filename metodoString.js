@@ -37,4 +37,10 @@ let m = new Date('2021, 9');
 let n = new Date();
 n.setDate(n.getDate() + 100);
 let aumentarData = n;
-console.log(aumentarData);
+//console.log(aumentarData);
+
+
+
+// nota do filme
+let nota = Math.round(3.6)
+console.log(nota)
