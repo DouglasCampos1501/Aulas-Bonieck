@@ -24,3 +24,17 @@ let resultado = nome.toLowerCase();
 console.log(resultado);
 
 
+let idadesFakes = [90, 46, 150, 66]; 
+let idadeReais = idadesFakes.map((item) => { return item / 2; }); 
+
+//console.log(idadeReais);
+
+
+let m = new Date('2021, 9');
+//console.log(m);
+
+
+let n = new Date();
+n.setDate(n.getDate() + 100);
+let aumentarData = n;
+console.log(aumentarData);
