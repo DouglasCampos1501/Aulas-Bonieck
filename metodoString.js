@@ -51,8 +51,23 @@ console.log(nota)
 
 const saudacao = 'Boa tarde';
 const opcao1 = saudacao + ' João, tudo bem?';
-console.log(opcao1)
+//console.log(opcao1)
 
 const saudacao2 = 'Boa tarde';
 const opcao2 = `${saudacao2} João, tudo bem?`
 console.log(opcao2)
+
+
+//Qual o resultado do código abaixo no console?
+
+let nome3 = 'Lucas';
+let compra = 'Arroz';
+
+let frase = console.log(`Meu nome é ${nome3} e eu comprei ${compra}`);
+
+
+//Qual será o resultado da desconstrução de objetos abaixo, exibida no console?
+
+var a = [100, 200, 300, 400, 500];
+var [b, c] = a;
+console.log(b); 
