@@ -44,3 +44,15 @@ let aumentarData = n;
 // nota do filme
 let nota = Math.round(3.6)
 console.log(nota)
+
+
+//template Strings
+//Um recurso muito utilizado no JavaScript para concatenar textos e variáveis é o template string. Verifique as duas opções de código abaixo e marque a resposta correta.
+
+const saudacao = 'Boa tarde';
+const opcao1 = saudacao + ' João, tudo bem?';
+console.log(opcao1)
+
+const saudacao2 = 'Boa tarde';
+const opcao2 = `${saudacao2} João, tudo bem?`
+console.log(opcao2)
