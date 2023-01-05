@@ -71,3 +71,8 @@ let frase = console.log(`Meu nome é ${nome3} e eu comprei ${compra}`);
 var a = [100, 200, 300, 400, 500];
 var [b, c] = a;
 console.log(b); 
+
+
+//Há várias maneiras de declarar uma função no JavaScript, verifique o código abaixo e marque a opção correspondente.
+let aviso = (dia) => console.log(`Hoje é ${dia}`)
+console.log(aviso('Sexta-feira'))
