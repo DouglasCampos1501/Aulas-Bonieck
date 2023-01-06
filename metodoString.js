@@ -100,3 +100,8 @@ console.log(Object.values(Object.keys(carro.valor)))
 let agente = "7";
 agente = agente.padStart(4,0);
 console.log(agente);
+
+
+//JSON
+let d = JSON.parse('true'); 
+console.log(d);
