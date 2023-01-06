@@ -76,3 +76,27 @@ console.log(b);
 //Há várias maneiras de declarar uma função no JavaScript, verifique o código abaixo e marque a opção correspondente.
 let aviso = (dia) => console.log(`Hoje é ${dia}`)
 console.log(aviso('Sexta-feira'))
+
+
+
+//Analise o trecho de código a seguir e marque a opção correta.
+
+let carro = {
+ modelo: 'Hilux',
+ cor: 'Vermelha',
+ ano: 2021,
+ valor: {
+ avista: '200 mil',
+ prazo: '300 mil'
+ }
+}
+
+console.log(Object.values(Object.keys(carro.valor)))
+
+
+
+//Qual será o resultado do código abaixo no console?
+
+let agente = "7";
+agente = agente.padStart(4,0);
+console.log(agente);
